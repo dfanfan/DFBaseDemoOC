@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C89730B95CE75E86DE915C1 /* Pods_DFBaseDemocOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63CFAC5DF3E6C2456FBC36F /* Pods_DFBaseDemocOC.framework */; };
+		6F66096723C336F600D80DAB /* DFShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66096623C336F600D80DAB /* DFShareVC.m */; };
+		CE07306522E6B5C0000AC7AA /* DFCommonViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07306422E6B5C0000AC7AA /* DFCommonViewVC.m */; };
+		CE07306922E6B645000AC7AA /* DFCodeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07306822E6B645000AC7AA /* DFCodeButton.m */; };
+		CE07306E22E6D4F0000AC7AA /* UIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07306D22E6D4F0000AC7AA /* UIColor+Utility.m */; };
+		CE07307422E6D854000AC7AA /* DFBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07307322E6D854000AC7AA /* DFBadgeView.m */; };
+		CE07307A22E6E5EA000AC7AA /* DFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07307922E6E5EA000AC7AA /* DFTextField.m */; };
+		CE07307D22E6FA16000AC7AA /* UIView+KeyBoardDismiss.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07307C22E6FA16000AC7AA /* UIView+KeyBoardDismiss.m */; };
+		CE07308022E6FBAE000AC7AA /* DFKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07307F22E6FBAE000AC7AA /* DFKeyBoardView.m */; };
+		CE557A67219D72CE00B113EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE557A66219D72CE00B113EF /* AppDelegate.m */; };
+		CE557A6A219D72CE00B113EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE557A69219D72CE00B113EF /* ViewController.m */; };
+		CE557A6D219D72CE00B113EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE557A6B219D72CE00B113EF /* Main.storyboard */; };
+		CE557A6F219D72CF00B113EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE557A6E219D72CF00B113EF /* Assets.xcassets */; };
+		CE557A72219D72CF00B113EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE557A70219D72CF00B113EF /* LaunchScreen.storyboard */; };
+		CE557A75219D72CF00B113EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE557A74219D72CF00B113EF /* main.m */; };
+		CE557A90219D783500B113EF /* DFRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE557A87219D783500B113EF /* DFRootViewController.m */; };
+		CE557A91219D783500B113EF /* DFRootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE557A88219D783500B113EF /* DFRootTabBarController.m */; };
+		CE557A92219D783500B113EF /* main.json in Resources */ = {isa = PBXBuildFile; fileRef = CE557A89219D783500B113EF /* main.json */; };
+		CE557A93219D783500B113EF /* DFRootCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE557A8B219D783500B113EF /* DFRootCollectionViewController.m */; };
+		CE557A94219D783500B113EF /* DFRootWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE557A8D219D783500B113EF /* DFRootWebViewController.m */; };
+		CE557A95219D783500B113EF /* DFRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE557A8E219D783500B113EF /* DFRootTableViewController.m */; };
+		CE557A96219D783500B113EF /* DFRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE557A8F219D783500B113EF /* DFRootNavigationController.m */; };
+		CE66BE6A22E7E6300095F7EC /* DFShareUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CE66BE6922E7E6300095F7EC /* DFShareUtils.m */; };
+		CE990A0E22DDB7D20096B059 /* DFAlertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE990A0D22DDB7D20096B059 /* DFAlertVC.m */; };
+		CE990A1222DDB86E0096B059 /* DFAlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CE990A1122DDB86E0096B059 /* DFAlertTool.m */; };
+		CE990A1522DDC0F60096B059 /* DFActionSheetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE990A1422DDC0F60096B059 /* DFActionSheetVC.m */; };
+		CE990A1822DDD7A60096B059 /* MBHud.m in Sources */ = {isa = PBXBuildFile; fileRef = CE990A1722DDD7A60096B059 /* MBHud.m */; };
+		CE990A1B22DDE11E0096B059 /* DFLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE990A1A22DDE11E0096B059 /* DFLoadingView.m */; };
+		CE9E4AE1219E9445003268A2 /* DFEnumUtilitys.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E4ADE219E9445003268A2 /* DFEnumUtilitys.m */; };
+		CE9E4AE2219E9445003268A2 /* DFHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E4ADF219E9445003268A2 /* DFHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05CD7176FE035ED050748CEF /* Pods-DFBaseDemocOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFBaseDemocOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-DFBaseDemocOC/Pods-DFBaseDemocOC.release.xcconfig"; sourceTree = "<group>"; };
+		6F66096523C336F600D80DAB /* DFShareVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFShareVC.h; sourceTree = "<group>"; };
+		6F66096623C336F600D80DAB /* DFShareVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFShareVC.m; sourceTree = "<group>"; };
+		B63CFAC5DF3E6C2456FBC36F /* Pods_DFBaseDemocOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DFBaseDemocOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE07306322E6B5C0000AC7AA /* DFCommonViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFCommonViewVC.h; sourceTree = "<group>"; };
+		CE07306422E6B5C0000AC7AA /* DFCommonViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFCommonViewVC.m; sourceTree = "<group>"; };
+		CE07306722E6B645000AC7AA /* DFCodeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFCodeButton.h; sourceTree = "<group>"; };
+		CE07306822E6B645000AC7AA /* DFCodeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFCodeButton.m; sourceTree = "<group>"; };
+		CE07306C22E6D4F0000AC7AA /* UIColor+Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utility.h"; sourceTree = "<group>"; };
+		CE07306D22E6D4F0000AC7AA /* UIColor+Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utility.m"; sourceTree = "<group>"; };
+		CE07307222E6D854000AC7AA /* DFBadgeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFBadgeView.h; sourceTree = "<group>"; };
+		CE07307322E6D854000AC7AA /* DFBadgeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFBadgeView.m; sourceTree = "<group>"; };
+		CE07307822E6E5EA000AC7AA /* DFTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFTextField.h; sourceTree = "<group>"; };
+		CE07307922E6E5EA000AC7AA /* DFTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFTextField.m; sourceTree = "<group>"; };
+		CE07307B22E6FA16000AC7AA /* UIView+KeyBoardDismiss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+KeyBoardDismiss.h"; sourceTree = "<group>"; };
+		CE07307C22E6FA16000AC7AA /* UIView+KeyBoardDismiss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+KeyBoardDismiss.m"; sourceTree = "<group>"; };
+		CE07307E22E6FBAE000AC7AA /* DFKeyBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFKeyBoardView.h; sourceTree = "<group>"; };
+		CE07307F22E6FBAE000AC7AA /* DFKeyBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFKeyBoardView.m; sourceTree = "<group>"; };
+		CE557A62219D72CE00B113EF /* DFBaseDemocOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFBaseDemocOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE557A65219D72CE00B113EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE557A66219D72CE00B113EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE557A68219D72CE00B113EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE557A69219D72CE00B113EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE557A6C219D72CE00B113EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE557A6E219D72CF00B113EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE557A71219D72CF00B113EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE557A73219D72CF00B113EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE557A74219D72CF00B113EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE557A83219D783500B113EF /* DFRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFRootViewController.h; sourceTree = "<group>"; };
+		CE557A84219D783500B113EF /* DFRootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFRootTableViewController.h; sourceTree = "<group>"; };
+		CE557A85219D783500B113EF /* DFRootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFRootTabBarController.h; sourceTree = "<group>"; };
+		CE557A86219D783500B113EF /* DFRootCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFRootCollectionViewController.h; sourceTree = "<group>"; };
+		CE557A87219D783500B113EF /* DFRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFRootViewController.m; sourceTree = "<group>"; };
+		CE557A88219D783500B113EF /* DFRootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFRootTabBarController.m; sourceTree = "<group>"; };
+		CE557A89219D783500B113EF /* main.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = main.json; sourceTree = "<group>"; };
+		CE557A8A219D783500B113EF /* DFRootWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFRootWebViewController.h; sourceTree = "<group>"; };
+		CE557A8B219D783500B113EF /* DFRootCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFRootCollectionViewController.m; sourceTree = "<group>"; };
+		CE557A8C219D783500B113EF /* DFRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFRootNavigationController.h; sourceTree = "<group>"; };
+		CE557A8D219D783500B113EF /* DFRootWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFRootWebViewController.m; sourceTree = "<group>"; };
+		CE557A8E219D783500B113EF /* DFRootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFRootTableViewController.m; sourceTree = "<group>"; };
+		CE557A8F219D783500B113EF /* DFRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFRootNavigationController.m; sourceTree = "<group>"; };
+		CE66BE6822E7E6300095F7EC /* DFShareUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFShareUtils.h; sourceTree = "<group>"; };
+		CE66BE6922E7E6300095F7EC /* DFShareUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFShareUtils.m; sourceTree = "<group>"; };
+		CE990A0C22DDB7D20096B059 /* DFAlertVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFAlertVC.h; sourceTree = "<group>"; };
+		CE990A0D22DDB7D20096B059 /* DFAlertVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFAlertVC.m; sourceTree = "<group>"; };
+		CE990A1022DDB86E0096B059 /* DFAlertTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFAlertTool.h; sourceTree = "<group>"; };
+		CE990A1122DDB86E0096B059 /* DFAlertTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFAlertTool.m; sourceTree = "<group>"; };
+		CE990A1322DDC0F60096B059 /* DFActionSheetVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFActionSheetVC.h; sourceTree = "<group>"; };
+		CE990A1422DDC0F60096B059 /* DFActionSheetVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFActionSheetVC.m; sourceTree = "<group>"; };
+		CE990A1622DDD7A60096B059 /* MBHud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBHud.h; sourceTree = "<group>"; };
+		CE990A1722DDD7A60096B059 /* MBHud.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBHud.m; sourceTree = "<group>"; };
+		CE990A1922DDE11E0096B059 /* DFLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFLoadingView.h; sourceTree = "<group>"; };
+		CE990A1A22DDE11E0096B059 /* DFLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFLoadingView.m; sourceTree = "<group>"; };
+		CE9E4ADD219E9445003268A2 /* DFHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFHelper.h; sourceTree = "<group>"; };
+		CE9E4ADE219E9445003268A2 /* DFEnumUtilitys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFEnumUtilitys.m; sourceTree = "<group>"; };
+		CE9E4ADF219E9445003268A2 /* DFHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFHelper.m; sourceTree = "<group>"; };
+		CE9E4AE0219E9445003268A2 /* DFEnumUtilitys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFEnumUtilitys.h; sourceTree = "<group>"; };
+		DEF7817D4EBD2365FFE6F3AE /* Pods-DFBaseDemocOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFBaseDemocOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DFBaseDemocOC/Pods-DFBaseDemocOC.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE557A5F219D72CE00B113EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C89730B95CE75E86DE915C1 /* Pods_DFBaseDemocOC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5224CDDD697D4A64F58A55DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B63CFAC5DF3E6C2456FBC36F /* Pods_DFBaseDemocOC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3263CB7DDE355ED9A49B521 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEF7817D4EBD2365FFE6F3AE /* Pods-DFBaseDemocOC.debug.xcconfig */,
+				05CD7176FE035ED050748CEF /* Pods-DFBaseDemocOC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE07306622E6B5E8000AC7AA /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				CE07306722E6B645000AC7AA /* DFCodeButton.h */,
+				CE07306822E6B645000AC7AA /* DFCodeButton.m */,
+				CE07307222E6D854000AC7AA /* DFBadgeView.h */,
+				CE07307322E6D854000AC7AA /* DFBadgeView.m */,
+				CE07307822E6E5EA000AC7AA /* DFTextField.h */,
+				CE07307922E6E5EA000AC7AA /* DFTextField.m */,
+				CE07307E22E6FBAE000AC7AA /* DFKeyBoardView.h */,
+				CE07307F22E6FBAE000AC7AA /* DFKeyBoardView.m */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		CE07306A22E6D190000AC7AA /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				CE66BE6722E7E6040095F7EC /* Share */,
+				CE07306B22E6D190000AC7AA /* Category */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		CE07306B22E6D190000AC7AA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CE07306C22E6D4F0000AC7AA /* UIColor+Utility.h */,
+				CE07306D22E6D4F0000AC7AA /* UIColor+Utility.m */,
+				CE07307B22E6FA16000AC7AA /* UIView+KeyBoardDismiss.h */,
+				CE07307C22E6FA16000AC7AA /* UIView+KeyBoardDismiss.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CE557A59219D72CE00B113EF = {
+			isa = PBXGroup;
+			children = (
+				CE557A64219D72CE00B113EF /* DFBaseDemocOC */,
+				CE557A63219D72CE00B113EF /* Products */,
+				C3263CB7DDE355ED9A49B521 /* Pods */,
+				5224CDDD697D4A64F58A55DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE557A63219D72CE00B113EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE557A62219D72CE00B113EF /* DFBaseDemocOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE557A64219D72CE00B113EF /* DFBaseDemocOC */ = {
+			isa = PBXGroup;
+			children = (
+				CE557A80219D77BD00B113EF /* Classes */,
+				CE557A7C219D776700B113EF /* Config */,
+			);
+			path = DFBaseDemocOC;
+			sourceTree = "<group>";
+		};
+		CE557A7C219D776700B113EF /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				CE557A65219D72CE00B113EF /* AppDelegate.h */,
+				CE557A66219D72CE00B113EF /* AppDelegate.m */,
+				CE557A68219D72CE00B113EF /* ViewController.h */,
+				CE557A69219D72CE00B113EF /* ViewController.m */,
+				CE557A6B219D72CE00B113EF /* Main.storyboard */,
+				CE557A6E219D72CF00B113EF /* Assets.xcassets */,
+				CE557A70219D72CF00B113EF /* LaunchScreen.storyboard */,
+				CE557A73219D72CF00B113EF /* Info.plist */,
+				CE557A74219D72CF00B113EF /* main.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		CE557A80219D77BD00B113EF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE07306A22E6D190000AC7AA /* Tool */,
+				CE990A0822DDB7560096B059 /* Function */,
+				CE557A81219D77D100B113EF /* Base */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CE557A81219D77D100B113EF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E4ADC219E9445003268A2 /* Other */,
+				CE557A82219D77F700B113EF /* Controller */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CE557A82219D77F700B113EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE557A89219D783500B113EF /* main.json */,
+				CE557A85219D783500B113EF /* DFRootTabBarController.h */,
+				CE557A88219D783500B113EF /* DFRootTabBarController.m */,
+				CE557A8C219D783500B113EF /* DFRootNavigationController.h */,
+				CE557A8F219D783500B113EF /* DFRootNavigationController.m */,
+				CE557A83219D783500B113EF /* DFRootViewController.h */,
+				CE557A87219D783500B113EF /* DFRootViewController.m */,
+				CE557A86219D783500B113EF /* DFRootCollectionViewController.h */,
+				CE557A8B219D783500B113EF /* DFRootCollectionViewController.m */,
+				CE557A84219D783500B113EF /* DFRootTableViewController.h */,
+				CE557A8E219D783500B113EF /* DFRootTableViewController.m */,
+				CE557A8A219D783500B113EF /* DFRootWebViewController.h */,
+				CE557A8D219D783500B113EF /* DFRootWebViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE66BE6722E7E6040095F7EC /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				CE66BE6822E7E6300095F7EC /* DFShareUtils.h */,
+				CE66BE6922E7E6300095F7EC /* DFShareUtils.m */,
+			);
+			name = Share;
+			path = DFBaseDemocOC/Classes/Share;
+			sourceTree = SOURCE_ROOT;
+		};
+		CE990A0822DDB7560096B059 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				CE990A0B22DDB7A60096B059 /* Controller */,
+				CE990A0A22DDB7A60096B059 /* Model */,
+				CE990A0922DDB7A60096B059 /* View */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		CE990A0922DDB7A60096B059 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE07306622E6B5E8000AC7AA /* CommonView */,
+				CE990A0F22DDB82F0096B059 /* Alert */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE990A0A22DDB7A60096B059 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE990A0B22DDB7A60096B059 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE990A0C22DDB7D20096B059 /* DFAlertVC.h */,
+				CE990A0D22DDB7D20096B059 /* DFAlertVC.m */,
+				CE07306322E6B5C0000AC7AA /* DFCommonViewVC.h */,
+				CE07306422E6B5C0000AC7AA /* DFCommonViewVC.m */,
+				6F66096523C336F600D80DAB /* DFShareVC.h */,
+				6F66096623C336F600D80DAB /* DFShareVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE990A0F22DDB82F0096B059 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				CE990A1022DDB86E0096B059 /* DFAlertTool.h */,
+				CE990A1122DDB86E0096B059 /* DFAlertTool.m */,
+				CE990A1322DDC0F60096B059 /* DFActionSheetVC.h */,
+				CE990A1422DDC0F60096B059 /* DFActionSheetVC.m */,
+				CE990A1622DDD7A60096B059 /* MBHud.h */,
+				CE990A1722DDD7A60096B059 /* MBHud.m */,
+				CE990A1922DDE11E0096B059 /* DFLoadingView.h */,
+				CE990A1A22DDE11E0096B059 /* DFLoadingView.m */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		CE9E4ADC219E9445003268A2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E4ADD219E9445003268A2 /* DFHelper.h */,
+				CE9E4ADF219E9445003268A2 /* DFHelper.m */,
+				CE9E4AE0219E9445003268A2 /* DFEnumUtilitys.h */,
+				CE9E4ADE219E9445003268A2 /* DFEnumUtilitys.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE557A61219D72CE00B113EF /* DFBaseDemocOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE557A78219D72CF00B113EF /* Build configuration list for PBXNativeTarget "DFBaseDemocOC" */;
+			buildPhases = (
+				3FC6C26AA65EFF5142DDAF14 /* [CP] Check Pods Manifest.lock */,
+				CE557A5E219D72CE00B113EF /* Sources */,
+				CE557A5F219D72CE00B113EF /* Frameworks */,
+				CE557A60219D72CE00B113EF /* Resources */,
+				25437223606774BBCD49FCB4 /* [CP] Embed Pods Frameworks */,
+				4D34E6CD0F17FE462BE76B19 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DFBaseDemocOC;
+			productName = DFBaseDemocOC;
+			productReference = CE557A62219D72CE00B113EF /* DFBaseDemocOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE557A5A219D72CE00B113EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = DF;
+				TargetAttributes = {
+					CE557A61219D72CE00B113EF = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = CE557A5D219D72CE00B113EF /* Build configuration list for PBXProject "DFBaseDemocOC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE557A59219D72CE00B113EF;
+			productRefGroup = CE557A63219D72CE00B113EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE557A61219D72CE00B113EF /* DFBaseDemocOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE557A60219D72CE00B113EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE557A72219D72CF00B113EF /* LaunchScreen.storyboard in Resources */,
+				CE557A6F219D72CF00B113EF /* Assets.xcassets in Resources */,
+				CE557A92219D783500B113EF /* main.json in Resources */,
+				CE557A6D219D72CE00B113EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25437223606774BBCD49FCB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DFBaseDemocOC/Pods-DFBaseDemocOC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/DFEmpty/DFEmpty.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DFEmpty.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DFBaseDemocOC/Pods-DFBaseDemocOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FC6C26AA65EFF5142DDAF14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DFBaseDemocOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D34E6CD0F17FE462BE76B19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DFBaseDemocOC/Pods-DFBaseDemocOC-resources.sh",
+				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DFBaseDemocOC/Pods-DFBaseDemocOC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE557A5E219D72CE00B113EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE557A6A219D72CE00B113EF /* ViewController.m in Sources */,
+				CE9E4AE2219E9445003268A2 /* DFHelper.m in Sources */,
+				CE990A1522DDC0F60096B059 /* DFActionSheetVC.m in Sources */,
+				CE557A91219D783500B113EF /* DFRootTabBarController.m in Sources */,
+				CE557A75219D72CF00B113EF /* main.m in Sources */,
+				CE557A96219D783500B113EF /* DFRootNavigationController.m in Sources */,
+				CE07306E22E6D4F0000AC7AA /* UIColor+Utility.m in Sources */,
+				CE990A1822DDD7A60096B059 /* MBHud.m in Sources */,
+				CE07307A22E6E5EA000AC7AA /* DFTextField.m in Sources */,
+				CE557A95219D783500B113EF /* DFRootTableViewController.m in Sources */,
+				6F66096723C336F600D80DAB /* DFShareVC.m in Sources */,
+				CE07308022E6FBAE000AC7AA /* DFKeyBoardView.m in Sources */,
+				CE07307D22E6FA16000AC7AA /* UIView+KeyBoardDismiss.m in Sources */,
+				CE07306922E6B645000AC7AA /* DFCodeButton.m in Sources */,
+				CE9E4AE1219E9445003268A2 /* DFEnumUtilitys.m in Sources */,
+				CE557A90219D783500B113EF /* DFRootViewController.m in Sources */,
+				CE557A93219D783500B113EF /* DFRootCollectionViewController.m in Sources */,
+				CE990A1222DDB86E0096B059 /* DFAlertTool.m in Sources */,
+				CE990A0E22DDB7D20096B059 /* DFAlertVC.m in Sources */,
+				CE990A1B22DDE11E0096B059 /* DFLoadingView.m in Sources */,
+				CE07307422E6D854000AC7AA /* DFBadgeView.m in Sources */,
+				CE557A67219D72CE00B113EF /* AppDelegate.m in Sources */,
+				CE07306522E6B5C0000AC7AA /* DFCommonViewVC.m in Sources */,
+				CE557A94219D783500B113EF /* DFRootWebViewController.m in Sources */,
+				CE66BE6A22E7E6300095F7EC /* DFShareUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE557A6B219D72CE00B113EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE557A6C219D72CE00B113EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE557A70219D72CF00B113EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE557A71219D72CF00B113EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE557A76219D72CF00B113EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE557A77219D72CF00B113EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE557A79219D72CF00B113EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEF7817D4EBD2365FFE6F3AE /* Pods-DFBaseDemocOC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RZJQ9NUQX;
+				INFOPLIST_FILE = DFBaseDemocOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.camsgear.DFBaseDemocOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE557A7A219D72CF00B113EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05CD7176FE035ED050748CEF /* Pods-DFBaseDemocOC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RZJQ9NUQX;
+				INFOPLIST_FILE = DFBaseDemocOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.camsgear.DFBaseDemocOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE557A5D219D72CE00B113EF /* Build configuration list for PBXProject "DFBaseDemocOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE557A76219D72CF00B113EF /* Debug */,
+				CE557A77219D72CF00B113EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE557A78219D72CF00B113EF /* Build configuration list for PBXNativeTarget "DFBaseDemocOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE557A79219D72CF00B113EF /* Debug */,
+				CE557A7A219D72CF00B113EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE557A5A219D72CE00B113EF /* Project object */;
+}

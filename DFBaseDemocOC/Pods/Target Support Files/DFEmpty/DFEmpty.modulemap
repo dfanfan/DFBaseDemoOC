@@ -1,0 +1,6 @@
+framework module DFEmpty {
+  umbrella header "DFEmpty-umbrella.h"
+
+  export *
+  module * { export * }
+}

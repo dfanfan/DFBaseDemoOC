@@ -1,0 +1,17 @@
+[
+     {
+     "clsName" : "DFRootViewController",
+     "title" : "工作台",
+     "imageName" : "tab_workspace"
+     },
+     {
+     "clsName" : "DFRootViewController",
+     "title" : "消息",
+     "imageName" : "tab_message"
+     },
+     {
+     "clsName" : "DFRootViewController",
+     "title" : "我的",
+     "imageName" : "tab_me"
+     }
+]

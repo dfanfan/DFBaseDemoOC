@@ -1,0 +1,68 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - DFEmpty (0.0.2)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.15.7)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - UMCCommon (2.0.0)
+  - UMCShare/Core (6.9.5):
+    - UMCCommon
+  - UMCShare/Social/ReducedWeChat (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/UI (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - DFEmpty
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - SDWebImage (~> 4.0.0)
+  - UMCCommon
+  - UMCShare/Social/ReducedWeChat
+  - UMCShare/UI
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - DFEmpty
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - UMCCommon
+    - UMCShare
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  DFEmpty: 04e4148c99c1f4cf5a351e5b2dcd515572fc7d9d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  UMCCommon: 79b5a614c958db367113eed5740109d9a98e1223
+  UMCShare: 552b29753f1b4da87b51d96545ed19e6263df397
+
+PODFILE CHECKSUM: 25bb7d2a4c05b66b3b204af95702251be63ff7d8
+
+COCOAPODS: 1.6.0

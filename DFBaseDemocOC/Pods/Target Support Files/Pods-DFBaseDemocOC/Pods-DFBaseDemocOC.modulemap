@@ -1,0 +1,6 @@
+framework module Pods_DFBaseDemocOC {
+  umbrella header "Pods-DFBaseDemocOC-umbrella.h"
+
+  export *
+  module * { export * }
+}
