@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5C89730B95CE75E86DE915C1 /* Pods_DFBaseDemocOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63CFAC5DF3E6C2456FBC36F /* Pods_DFBaseDemocOC.framework */; };
+		6F5488B323C84635009A40D2 /* DFCardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5488B223C84635009A40D2 /* DFCardVC.m */; };
+		6F5488B923C848B0009A40D2 /* DFCardFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5488B523C848AF009A40D2 /* DFCardFlowLayout.m */; };
+		6F5488BA23C848B0009A40D2 /* DFCardOverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5488B623C848AF009A40D2 /* DFCardOverFlowLayout.m */; };
 		6F66096723C336F600D80DAB /* DFShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66096623C336F600D80DAB /* DFShareVC.m */; };
 		CE07306522E6B5C0000AC7AA /* DFCommonViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07306422E6B5C0000AC7AA /* DFCommonViewVC.m */; };
 		CE07306922E6B645000AC7AA /* DFCodeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07306822E6B645000AC7AA /* DFCodeButton.m */; };
@@ -41,6 +44,15 @@
 
 /* Begin PBXFileReference section */
 		05CD7176FE035ED050748CEF /* Pods-DFBaseDemocOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFBaseDemocOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-DFBaseDemocOC/Pods-DFBaseDemocOC.release.xcconfig"; sourceTree = "<group>"; };
+		6F5488B123C84635009A40D2 /* DFCardVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFCardVC.h; sourceTree = "<group>"; };
+		6F5488B223C84635009A40D2 /* DFCardVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFCardVC.m; sourceTree = "<group>"; };
+		6F5488B523C848AF009A40D2 /* DFCardFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCardFlowLayout.m; sourceTree = "<group>"; };
+		6F5488B623C848AF009A40D2 /* DFCardOverFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCardOverFlowLayout.m; sourceTree = "<group>"; };
+		6F5488B723C848AF009A40D2 /* DFCardOverFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCardOverFlowLayout.h; sourceTree = "<group>"; };
+		6F5488B823C848B0009A40D2 /* DFCardFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCardFlowLayout.h; sourceTree = "<group>"; };
+		6F5488BB23C8497F009A40D2 /* DFMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFMacros.h; sourceTree = "<group>"; };
+		6F5488BC23C849DA009A40D2 /* DFFontMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFFontMacros.h; sourceTree = "<group>"; };
+		6F5488BD23C84A05009A40D2 /* DFColorMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFColorMacros.h; sourceTree = "<group>"; };
 		6F66096523C336F600D80DAB /* DFShareVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFShareVC.h; sourceTree = "<group>"; };
 		6F66096623C336F600D80DAB /* DFShareVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFShareVC.m; sourceTree = "<group>"; };
 		B63CFAC5DF3E6C2456FBC36F /* Pods_DFBaseDemocOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DFBaseDemocOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +130,17 @@
 				B63CFAC5DF3E6C2456FBC36F /* Pods_DFBaseDemocOC.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F5488B423C84891009A40D2 /* CollectionCard */ = {
+			isa = PBXGroup;
+			children = (
+				6F5488B823C848B0009A40D2 /* DFCardFlowLayout.h */,
+				6F5488B523C848AF009A40D2 /* DFCardFlowLayout.m */,
+				6F5488B723C848AF009A40D2 /* DFCardOverFlowLayout.h */,
+				6F5488B623C848AF009A40D2 /* DFCardOverFlowLayout.m */,
+			);
+			path = CollectionCard;
 			sourceTree = "<group>";
 		};
 		C3263CB7DDE355ED9A49B521 /* Pods */ = {
@@ -269,6 +292,7 @@
 		CE990A0922DDB7A60096B059 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6F5488B423C84891009A40D2 /* CollectionCard */,
 				CE07306622E6B5E8000AC7AA /* CommonView */,
 				CE990A0F22DDB82F0096B059 /* Alert */,
 			);
@@ -291,6 +315,8 @@
 				CE07306422E6B5C0000AC7AA /* DFCommonViewVC.m */,
 				6F66096523C336F600D80DAB /* DFShareVC.h */,
 				6F66096623C336F600D80DAB /* DFShareVC.m */,
+				6F5488B123C84635009A40D2 /* DFCardVC.h */,
+				6F5488B223C84635009A40D2 /* DFCardVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -317,6 +343,9 @@
 				CE9E4ADF219E9445003268A2 /* DFHelper.m */,
 				CE9E4AE0219E9445003268A2 /* DFEnumUtilitys.h */,
 				CE9E4ADE219E9445003268A2 /* DFEnumUtilitys.m */,
+				6F5488BB23C8497F009A40D2 /* DFMacros.h */,
+				6F5488BC23C849DA009A40D2 /* DFFontMacros.h */,
+				6F5488BD23C84A05009A40D2 /* DFColorMacros.h */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -467,6 +496,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE557A6A219D72CE00B113EF /* ViewController.m in Sources */,
+				6F5488B923C848B0009A40D2 /* DFCardFlowLayout.m in Sources */,
 				CE9E4AE2219E9445003268A2 /* DFHelper.m in Sources */,
 				CE990A1522DDC0F60096B059 /* DFActionSheetVC.m in Sources */,
 				CE557A91219D783500B113EF /* DFRootTabBarController.m in Sources */,
@@ -474,7 +504,9 @@
 				CE557A96219D783500B113EF /* DFRootNavigationController.m in Sources */,
 				CE07306E22E6D4F0000AC7AA /* UIColor+Utility.m in Sources */,
 				CE990A1822DDD7A60096B059 /* MBHud.m in Sources */,
+				6F5488B323C84635009A40D2 /* DFCardVC.m in Sources */,
 				CE07307A22E6E5EA000AC7AA /* DFTextField.m in Sources */,
+				6F5488BA23C848B0009A40D2 /* DFCardOverFlowLayout.m in Sources */,
 				CE557A95219D783500B113EF /* DFRootTableViewController.m in Sources */,
 				6F66096723C336F600D80DAB /* DFShareVC.m in Sources */,
 				CE07308022E6FBAE000AC7AA /* DFKeyBoardView.m in Sources */,

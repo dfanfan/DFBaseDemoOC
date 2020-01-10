@@ -7,13 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "DFRootTabBarController.h"
-#import "DFAlertVC.h"
-#import "DFCommonViewVC.h"
-#import "DFShareVC.h"
 
 @interface ViewController ()
-@property (nonatomic, strong) NSArray *dataArray;
+@property (nonatomic, strong) NSArray<NSDictionary *> *dataArray;
 @end
 
 @implementation ViewController
@@ -35,34 +31,20 @@
 }
 
 - (void)setupData {
-    self.dataArray = @[@"自定义UITabBarController",
-                       @"Alert和hud",
-                       @"常用的View控件",
-                       @"分享"];
-    
+    self.dataArray = @[@{@"DFRootTabBarController":@"自定义UITabBarController"},
+                       @{@"DFAlertVC":@"Alert和hud"},
+                       @{@"DFCommonViewVC":@"常用的View控件"},
+                       @{@"DFShareVC":@"分享"},
+                       @{@"DFCardVC":@"卡片效果"}];
+
 }
 
 
-- (void)toTabController {
-    DFRootTabBarController *vc = [[DFRootTabBarController alloc] init];
-    vc.modalPresentationStyle = UIModalPresentationFullScreen;
-    [self presentViewController:vc animated:YES completion:nil];
-}
-
-- (void)toAlert {
-    DFAlertVC *vc = [[DFAlertVC alloc] init];
-    vc.modalPresentationStyle = UIModalPresentationFullScreen;
-    [self presentViewController:vc animated:YES completion:nil];
-}
-
-- (void)toCommonView {
-    DFCommonViewVC *vc = [[DFCommonViewVC alloc] init];
-    vc.modalPresentationStyle = UIModalPresentationFullScreen;
-    [self presentViewController:vc animated:YES completion:nil];
-}
-
-- (void)toShare {
-    DFShareVC *vc = [[DFShareVC alloc] init];
+- (void)toFunctionWithIndex:(NSUInteger)index {
+    NSDictionary *dic = self.dataArray[index];
+    NSString *clsName = [dic.allKeys firstObject];
+    Class cls = NSClassFromString(clsName);
+    UIViewController *vc = [[cls alloc] init];
     vc.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:vc animated:YES completion:nil];
 }
@@ -81,7 +63,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
     }
     cell.separatorInset = UIEdgeInsetsMake(0, 0, 0, 0);
-    cell.textLabel.text = [NSString stringWithFormat:@"%@", self.dataArray[indexPath.row]];
+    cell.textLabel.text = [NSString stringWithFormat:@"%@", [self.dataArray[indexPath.row].allValues firstObject]];
     
     return cell;
 }
@@ -89,23 +71,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    switch (indexPath.row) {
-        case 0:
-            [self toTabController];
-            break;
-        case 1:
-            [self toAlert];
-            break;
-        case 2:
-            [self toCommonView];
-            break;
-        case 3:
-            [self toShare];
-            break;
-            
-        default:
-            break;
-    }
+    [self toFunctionWithIndex:indexPath.row];
 }
 
 
