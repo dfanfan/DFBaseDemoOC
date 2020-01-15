@@ -24,6 +24,7 @@
 		CE07307A22E6E5EA000AC7AA /* DFTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07307922E6E5EA000AC7AA /* DFTextField.m */; };
 		CE07307D22E6FA16000AC7AA /* UIView+KeyBoardDismiss.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07307C22E6FA16000AC7AA /* UIView+KeyBoardDismiss.m */; };
 		CE07308022E6FBAE000AC7AA /* DFKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07307F22E6FBAE000AC7AA /* DFKeyBoardView.m */; };
+		CE1A442023CDB249003AEBE4 /* DFLabelLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1A441E23CDB249003AEBE4 /* DFLabelLayout.m */; };
 		CE557A67219D72CE00B113EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE557A66219D72CE00B113EF /* AppDelegate.m */; };
 		CE557A6A219D72CE00B113EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE557A69219D72CE00B113EF /* ViewController.m */; };
 		CE557A6D219D72CE00B113EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE557A6B219D72CE00B113EF /* Main.storyboard */; };
@@ -84,6 +85,8 @@
 		CE07307C22E6FA16000AC7AA /* UIView+KeyBoardDismiss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+KeyBoardDismiss.m"; sourceTree = "<group>"; };
 		CE07307E22E6FBAE000AC7AA /* DFKeyBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFKeyBoardView.h; sourceTree = "<group>"; };
 		CE07307F22E6FBAE000AC7AA /* DFKeyBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFKeyBoardView.m; sourceTree = "<group>"; };
+		CE1A441E23CDB249003AEBE4 /* DFLabelLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFLabelLayout.m; sourceTree = "<group>"; };
+		CE1A441F23CDB249003AEBE4 /* DFLabelLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLabelLayout.h; sourceTree = "<group>"; };
 		CE557A62219D72CE00B113EF /* DFBaseDemocOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFBaseDemocOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE557A65219D72CE00B113EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE557A66219D72CE00B113EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -174,6 +177,8 @@
 				6F5488B523C848AF009A40D2 /* DFCardFlowLayout.m */,
 				6F5488B723C848AF009A40D2 /* DFCardOverFlowLayout.h */,
 				6F5488B623C848AF009A40D2 /* DFCardOverFlowLayout.m */,
+				CE1A441F23CDB249003AEBE4 /* DFLabelLayout.h */,
+				CE1A441E23CDB249003AEBE4 /* DFLabelLayout.m */,
 			);
 			path = CollectionCard;
 			sourceTree = "<group>";
@@ -543,6 +548,7 @@
 				CE557A95219D783500B113EF /* DFRootTableViewController.m in Sources */,
 				6F66096723C336F600D80DAB /* DFShareVC.m in Sources */,
 				CE07308022E6FBAE000AC7AA /* DFKeyBoardView.m in Sources */,
+				CE1A442023CDB249003AEBE4 /* DFLabelLayout.m in Sources */,
 				CE07307D22E6FA16000AC7AA /* UIView+KeyBoardDismiss.m in Sources */,
 				6F49152523CEA6BA0078723F /* DFPlayerView.m in Sources */,
 				6F49152423CEA6BA0078723F /* DFListCell.m in Sources */,
