@@ -35,7 +35,8 @@
                        @{@"DFAlertVC":@"Alert和hud"},
                        @{@"DFCommonViewVC":@"常用的View控件"},
                        @{@"DFShareVC":@"分享"},
-                       @{@"DFCardVC":@"卡片效果"}];
+                       @{@"DFCardVC":@"卡片效果"},
+                       @{@"DFPlayerVC":@"视频播放（AVPlayer）"}];
 
 }
 

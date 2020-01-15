@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		5C89730B95CE75E86DE915C1 /* Pods_DFBaseDemocOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63CFAC5DF3E6C2456FBC36F /* Pods_DFBaseDemocOC.framework */; };
+		6F49151D23CEA6AE0078723F /* DFPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F49151C23CEA6AE0078723F /* DFPlayerVC.m */; };
+		6F49152323CEA6BA0078723F /* DFListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F49152023CEA6BA0078723F /* DFListCell.xib */; };
+		6F49152423CEA6BA0078723F /* DFListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F49152123CEA6BA0078723F /* DFListCell.m */; };
+		6F49152523CEA6BA0078723F /* DFPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F49152223CEA6BA0078723F /* DFPlayerView.m */; };
+		6F49152923CEA7170078723F /* DFVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F49152823CEA7170078723F /* DFVideoModel.m */; };
 		6F5488B323C84635009A40D2 /* DFCardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5488B223C84635009A40D2 /* DFCardVC.m */; };
 		6F5488B923C848B0009A40D2 /* DFCardFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5488B523C848AF009A40D2 /* DFCardFlowLayout.m */; };
 		6F5488BA23C848B0009A40D2 /* DFCardOverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5488B623C848AF009A40D2 /* DFCardOverFlowLayout.m */; };
@@ -44,6 +49,15 @@
 
 /* Begin PBXFileReference section */
 		05CD7176FE035ED050748CEF /* Pods-DFBaseDemocOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFBaseDemocOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-DFBaseDemocOC/Pods-DFBaseDemocOC.release.xcconfig"; sourceTree = "<group>"; };
+		6F49151B23CEA6AE0078723F /* DFPlayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFPlayerVC.h; sourceTree = "<group>"; };
+		6F49151C23CEA6AE0078723F /* DFPlayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFPlayerVC.m; sourceTree = "<group>"; };
+		6F49151E23CEA6BA0078723F /* DFListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFListCell.h; sourceTree = "<group>"; };
+		6F49151F23CEA6BA0078723F /* DFPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFPlayerView.h; sourceTree = "<group>"; };
+		6F49152023CEA6BA0078723F /* DFListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DFListCell.xib; sourceTree = "<group>"; };
+		6F49152123CEA6BA0078723F /* DFListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFListCell.m; sourceTree = "<group>"; };
+		6F49152223CEA6BA0078723F /* DFPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFPlayerView.m; sourceTree = "<group>"; };
+		6F49152723CEA7170078723F /* DFVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFVideoModel.h; sourceTree = "<group>"; };
+		6F49152823CEA7170078723F /* DFVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFVideoModel.m; sourceTree = "<group>"; };
 		6F5488B123C84635009A40D2 /* DFCardVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFCardVC.h; sourceTree = "<group>"; };
 		6F5488B223C84635009A40D2 /* DFCardVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFCardVC.m; sourceTree = "<group>"; };
 		6F5488B523C848AF009A40D2 /* DFCardFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCardFlowLayout.m; sourceTree = "<group>"; };
@@ -130,6 +144,27 @@
 				B63CFAC5DF3E6C2456FBC36F /* Pods_DFBaseDemocOC.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F49151A23CEA6460078723F /* AVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				6F49151E23CEA6BA0078723F /* DFListCell.h */,
+				6F49152123CEA6BA0078723F /* DFListCell.m */,
+				6F49152023CEA6BA0078723F /* DFListCell.xib */,
+				6F49151F23CEA6BA0078723F /* DFPlayerView.h */,
+				6F49152223CEA6BA0078723F /* DFPlayerView.m */,
+			);
+			path = AVPlayer;
+			sourceTree = "<group>";
+		};
+		6F49152623CEA7170078723F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F49152723CEA7170078723F /* DFVideoModel.h */,
+				6F49152823CEA7170078723F /* DFVideoModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		6F5488B423C84891009A40D2 /* CollectionCard */ = {
@@ -282,8 +317,8 @@
 		CE990A0822DDB7560096B059 /* Function */ = {
 			isa = PBXGroup;
 			children = (
+				6F49152623CEA7170078723F /* Model */,
 				CE990A0B22DDB7A60096B059 /* Controller */,
-				CE990A0A22DDB7A60096B059 /* Model */,
 				CE990A0922DDB7A60096B059 /* View */,
 			);
 			path = Function;
@@ -292,18 +327,12 @@
 		CE990A0922DDB7A60096B059 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6F49151A23CEA6460078723F /* AVPlayer */,
 				6F5488B423C84891009A40D2 /* CollectionCard */,
 				CE07306622E6B5E8000AC7AA /* CommonView */,
 				CE990A0F22DDB82F0096B059 /* Alert */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		CE990A0A22DDB7A60096B059 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		CE990A0B22DDB7A60096B059 /* Controller */ = {
@@ -317,6 +346,8 @@
 				6F66096623C336F600D80DAB /* DFShareVC.m */,
 				6F5488B123C84635009A40D2 /* DFCardVC.h */,
 				6F5488B223C84635009A40D2 /* DFCardVC.m */,
+				6F49151B23CEA6AE0078723F /* DFPlayerVC.h */,
+				6F49151C23CEA6AE0078723F /* DFPlayerVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -411,6 +442,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE557A72219D72CF00B113EF /* LaunchScreen.storyboard in Resources */,
+				6F49152323CEA6BA0078723F /* DFListCell.xib in Resources */,
 				CE557A6F219D72CF00B113EF /* Assets.xcassets in Resources */,
 				CE557A92219D783500B113EF /* main.json in Resources */,
 				CE557A6D219D72CE00B113EF /* Main.storyboard in Resources */,
@@ -503,6 +535,7 @@
 				CE557A75219D72CF00B113EF /* main.m in Sources */,
 				CE557A96219D783500B113EF /* DFRootNavigationController.m in Sources */,
 				CE07306E22E6D4F0000AC7AA /* UIColor+Utility.m in Sources */,
+				6F49151D23CEA6AE0078723F /* DFPlayerVC.m in Sources */,
 				CE990A1822DDD7A60096B059 /* MBHud.m in Sources */,
 				6F5488B323C84635009A40D2 /* DFCardVC.m in Sources */,
 				CE07307A22E6E5EA000AC7AA /* DFTextField.m in Sources */,
@@ -511,6 +544,8 @@
 				6F66096723C336F600D80DAB /* DFShareVC.m in Sources */,
 				CE07308022E6FBAE000AC7AA /* DFKeyBoardView.m in Sources */,
 				CE07307D22E6FA16000AC7AA /* UIView+KeyBoardDismiss.m in Sources */,
+				6F49152523CEA6BA0078723F /* DFPlayerView.m in Sources */,
+				6F49152423CEA6BA0078723F /* DFListCell.m in Sources */,
 				CE07306922E6B645000AC7AA /* DFCodeButton.m in Sources */,
 				CE9E4AE1219E9445003268A2 /* DFEnumUtilitys.m in Sources */,
 				CE557A90219D783500B113EF /* DFRootViewController.m in Sources */,
@@ -519,6 +554,7 @@
 				CE990A0E22DDB7D20096B059 /* DFAlertVC.m in Sources */,
 				CE990A1B22DDE11E0096B059 /* DFLoadingView.m in Sources */,
 				CE07307422E6D854000AC7AA /* DFBadgeView.m in Sources */,
+				6F49152923CEA7170078723F /* DFVideoModel.m in Sources */,
 				CE557A67219D72CE00B113EF /* AppDelegate.m in Sources */,
 				CE07306522E6B5C0000AC7AA /* DFCommonViewVC.m in Sources */,
 				CE557A94219D783500B113EF /* DFRootWebViewController.m in Sources */,
