@@ -13,6 +13,7 @@
 #import "DFKeyBoardView.h"
 #import "UIView+KeyBoardDismiss.h"
 #import "DFTextField.h"
+#import "DFGredienProgressView.h"
 
 @interface DFCommonViewVC ()
 @property (nonatomic, weak) DFBadgeView *badgeView;
@@ -30,6 +31,8 @@
     [self setupBadgeView];
     
     [self setupTextField];
+    
+    [self setupProgressUI];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -78,6 +81,19 @@
     }];
     
     [badgeView setNum:10];
+}
+
+- (void)setupProgressUI {
+    DFGredienProgressView *progressView = [[DFGredienProgressView alloc] init];
+    progressView.lineWidth = 5;
+    progressView.backgroundColor = [UIColor randomColor];
+    [self.view addSubview:progressView];
+    
+    [progressView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.leading.equalTo(@100);
+        make.top.equalTo(@150);
+        make.width.height.equalTo(@100);
+    }];
 }
 
 

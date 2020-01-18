@@ -16,6 +16,7 @@
 		6F5488B323C84635009A40D2 /* DFCardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5488B223C84635009A40D2 /* DFCardVC.m */; };
 		6F5488B923C848B0009A40D2 /* DFCardFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5488B523C848AF009A40D2 /* DFCardFlowLayout.m */; };
 		6F5488BA23C848B0009A40D2 /* DFCardOverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5488B623C848AF009A40D2 /* DFCardOverFlowLayout.m */; };
+		6F656F3C23D2D3E2008280A1 /* DFGredienProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F656F3B23D2D3E2008280A1 /* DFGredienProgressView.m */; };
 		6F66096723C336F600D80DAB /* DFShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66096623C336F600D80DAB /* DFShareVC.m */; };
 		CE07306522E6B5C0000AC7AA /* DFCommonViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07306422E6B5C0000AC7AA /* DFCommonViewVC.m */; };
 		CE07306922E6B645000AC7AA /* DFCodeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07306822E6B645000AC7AA /* DFCodeButton.m */; };
@@ -68,6 +69,8 @@
 		6F5488BB23C8497F009A40D2 /* DFMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFMacros.h; sourceTree = "<group>"; };
 		6F5488BC23C849DA009A40D2 /* DFFontMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFFontMacros.h; sourceTree = "<group>"; };
 		6F5488BD23C84A05009A40D2 /* DFColorMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFColorMacros.h; sourceTree = "<group>"; };
+		6F656F3A23D2D3E2008280A1 /* DFGredienProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFGredienProgressView.h; sourceTree = "<group>"; };
+		6F656F3B23D2D3E2008280A1 /* DFGredienProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFGredienProgressView.m; sourceTree = "<group>"; };
 		6F66096523C336F600D80DAB /* DFShareVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFShareVC.h; sourceTree = "<group>"; };
 		6F66096623C336F600D80DAB /* DFShareVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFShareVC.m; sourceTree = "<group>"; };
 		B63CFAC5DF3E6C2456FBC36F /* Pods_DFBaseDemocOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DFBaseDemocOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -203,6 +206,8 @@
 				CE07307922E6E5EA000AC7AA /* DFTextField.m */,
 				CE07307E22E6FBAE000AC7AA /* DFKeyBoardView.h */,
 				CE07307F22E6FBAE000AC7AA /* DFKeyBoardView.m */,
+				6F656F3A23D2D3E2008280A1 /* DFGredienProgressView.h */,
+				6F656F3B23D2D3E2008280A1 /* DFGredienProgressView.m */,
 			);
 			path = CommonView;
 			sourceTree = "<group>";
@@ -542,6 +547,7 @@
 				CE07306E22E6D4F0000AC7AA /* UIColor+Utility.m in Sources */,
 				6F49151D23CEA6AE0078723F /* DFPlayerVC.m in Sources */,
 				CE990A1822DDD7A60096B059 /* MBHud.m in Sources */,
+				6F656F3C23D2D3E2008280A1 /* DFGredienProgressView.m in Sources */,
 				6F5488B323C84635009A40D2 /* DFCardVC.m in Sources */,
 				CE07307A22E6E5EA000AC7AA /* DFTextField.m in Sources */,
 				6F5488BA23C848B0009A40D2 /* DFCardOverFlowLayout.m in Sources */,

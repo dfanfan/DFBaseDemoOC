@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DFRootNavigationController.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) NSArray<NSDictionary *> *dataArray;
@@ -46,8 +47,9 @@
     NSString *clsName = [dic.allKeys firstObject];
     Class cls = NSClassFromString(clsName);
     UIViewController *vc = [[cls alloc] init];
-    vc.modalPresentationStyle = UIModalPresentationFullScreen;
-    [self presentViewController:vc animated:YES completion:nil];
+    DFRootNavigationController *nav = [[DFRootNavigationController alloc] initWithRootViewController:vc];
+    nav.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
 
