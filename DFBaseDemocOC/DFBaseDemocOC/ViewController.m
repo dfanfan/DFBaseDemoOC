@@ -37,7 +37,8 @@
                        @{@"DFCommonViewVC":@"常用的View控件"},
                        @{@"DFShareVC":@"分享"},
                        @{@"DFCardVC":@"卡片效果"},
-                       @{@"DFPlayerVC":@"视频播放（AVPlayer）"}];
+                       @{@"DFPlayerVC":@"视频播放（AVPlayer）"},
+                       @{@"DFSegmentTabVC":@"分段控制segment"}];
 
 }
 
@@ -47,9 +48,10 @@
     NSString *clsName = [dic.allKeys firstObject];
     Class cls = NSClassFromString(clsName);
     UIViewController *vc = [[cls alloc] init];
-    DFRootNavigationController *nav = [[DFRootNavigationController alloc] initWithRootViewController:vc];
-    nav.modalPresentationStyle = UIModalPresentationFullScreen;
-    [self presentViewController:nav animated:YES completion:nil];
+//    DFRootNavigationController *nav = [[DFRootNavigationController alloc] initWithRootViewController:vc];
+//    nav.modalPresentationStyle = UIModalPresentationFullScreen;
+//    [self presentViewController:nav animated:YES completion:nil];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

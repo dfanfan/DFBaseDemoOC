@@ -17,7 +17,12 @@
 		6F5488B923C848B0009A40D2 /* DFCardFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5488B523C848AF009A40D2 /* DFCardFlowLayout.m */; };
 		6F5488BA23C848B0009A40D2 /* DFCardOverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5488B623C848AF009A40D2 /* DFCardOverFlowLayout.m */; };
 		6F656F3C23D2D3E2008280A1 /* DFGredienProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F656F3B23D2D3E2008280A1 /* DFGredienProgressView.m */; };
+		6F656F4523D2E679008280A1 /* DFItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F656F4023D2E679008280A1 /* DFItemButton.m */; };
+		6F656F4923D2EB3E008280A1 /* DFScrollTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F656F4823D2EB3E008280A1 /* DFScrollTitleView.m */; };
+		6F656F4C23D2ED81008280A1 /* DFPageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F656F4B23D2ED81008280A1 /* DFPageCollectionView.m */; };
+		6F656F4F23D2FB5B008280A1 /* DFSegmentTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F656F4E23D2FB5B008280A1 /* DFSegmentTabView.m */; };
 		6F66096723C336F600D80DAB /* DFShareVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66096623C336F600D80DAB /* DFShareVC.m */; };
+		6F6BBEB023D3E049009A3085 /* DFSegmentTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6BBEAF23D3E049009A3085 /* DFSegmentTabVC.m */; };
 		CE07306522E6B5C0000AC7AA /* DFCommonViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07306422E6B5C0000AC7AA /* DFCommonViewVC.m */; };
 		CE07306922E6B645000AC7AA /* DFCodeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07306822E6B645000AC7AA /* DFCodeButton.m */; };
 		CE07306E22E6D4F0000AC7AA /* UIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07306D22E6D4F0000AC7AA /* UIColor+Utility.m */; };
@@ -71,8 +76,18 @@
 		6F5488BD23C84A05009A40D2 /* DFColorMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFColorMacros.h; sourceTree = "<group>"; };
 		6F656F3A23D2D3E2008280A1 /* DFGredienProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFGredienProgressView.h; sourceTree = "<group>"; };
 		6F656F3B23D2D3E2008280A1 /* DFGredienProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFGredienProgressView.m; sourceTree = "<group>"; };
+		6F656F4023D2E679008280A1 /* DFItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFItemButton.m; sourceTree = "<group>"; };
+		6F656F4323D2E679008280A1 /* DFItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFItemButton.h; sourceTree = "<group>"; };
+		6F656F4723D2EB3E008280A1 /* DFScrollTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFScrollTitleView.h; sourceTree = "<group>"; };
+		6F656F4823D2EB3E008280A1 /* DFScrollTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFScrollTitleView.m; sourceTree = "<group>"; };
+		6F656F4A23D2ED81008280A1 /* DFPageCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFPageCollectionView.h; sourceTree = "<group>"; };
+		6F656F4B23D2ED81008280A1 /* DFPageCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFPageCollectionView.m; sourceTree = "<group>"; };
+		6F656F4D23D2FB5B008280A1 /* DFSegmentTabView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFSegmentTabView.h; sourceTree = "<group>"; };
+		6F656F4E23D2FB5B008280A1 /* DFSegmentTabView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFSegmentTabView.m; sourceTree = "<group>"; };
 		6F66096523C336F600D80DAB /* DFShareVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFShareVC.h; sourceTree = "<group>"; };
 		6F66096623C336F600D80DAB /* DFShareVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFShareVC.m; sourceTree = "<group>"; };
+		6F6BBEAE23D3E049009A3085 /* DFSegmentTabVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFSegmentTabVC.h; sourceTree = "<group>"; };
+		6F6BBEAF23D3E049009A3085 /* DFSegmentTabVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFSegmentTabVC.m; sourceTree = "<group>"; };
 		B63CFAC5DF3E6C2456FBC36F /* Pods_DFBaseDemocOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DFBaseDemocOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE07306322E6B5C0000AC7AA /* DFCommonViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFCommonViewVC.h; sourceTree = "<group>"; };
 		CE07306422E6B5C0000AC7AA /* DFCommonViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFCommonViewVC.m; sourceTree = "<group>"; };
@@ -184,6 +199,21 @@
 				CE1A441E23CDB249003AEBE4 /* DFLabelLayout.m */,
 			);
 			path = CollectionCard;
+			sourceTree = "<group>";
+		};
+		6F656F3D23D2E679008280A1 /* DFSegmentTab */ = {
+			isa = PBXGroup;
+			children = (
+				6F656F4323D2E679008280A1 /* DFItemButton.h */,
+				6F656F4023D2E679008280A1 /* DFItemButton.m */,
+				6F656F4723D2EB3E008280A1 /* DFScrollTitleView.h */,
+				6F656F4823D2EB3E008280A1 /* DFScrollTitleView.m */,
+				6F656F4A23D2ED81008280A1 /* DFPageCollectionView.h */,
+				6F656F4B23D2ED81008280A1 /* DFPageCollectionView.m */,
+				6F656F4D23D2FB5B008280A1 /* DFSegmentTabView.h */,
+				6F656F4E23D2FB5B008280A1 /* DFSegmentTabView.m */,
+			);
+			path = DFSegmentTab;
 			sourceTree = "<group>";
 		};
 		C3263CB7DDE355ED9A49B521 /* Pods */ = {
@@ -337,6 +367,7 @@
 		CE990A0922DDB7A60096B059 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6F656F3D23D2E679008280A1 /* DFSegmentTab */,
 				6F49151A23CEA6460078723F /* AVPlayer */,
 				6F5488B423C84891009A40D2 /* CollectionCard */,
 				CE07306622E6B5E8000AC7AA /* CommonView */,
@@ -358,6 +389,8 @@
 				6F5488B223C84635009A40D2 /* DFCardVC.m */,
 				6F49151B23CEA6AE0078723F /* DFPlayerVC.h */,
 				6F49151C23CEA6AE0078723F /* DFPlayerVC.m */,
+				6F6BBEAE23D3E049009A3085 /* DFSegmentTabVC.h */,
+				6F6BBEAF23D3E049009A3085 /* DFSegmentTabVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -551,6 +584,7 @@
 				6F5488B323C84635009A40D2 /* DFCardVC.m in Sources */,
 				CE07307A22E6E5EA000AC7AA /* DFTextField.m in Sources */,
 				6F5488BA23C848B0009A40D2 /* DFCardOverFlowLayout.m in Sources */,
+				6F656F4C23D2ED81008280A1 /* DFPageCollectionView.m in Sources */,
 				CE557A95219D783500B113EF /* DFRootTableViewController.m in Sources */,
 				6F66096723C336F600D80DAB /* DFShareVC.m in Sources */,
 				CE07308022E6FBAE000AC7AA /* DFKeyBoardView.m in Sources */,
@@ -564,12 +598,16 @@
 				CE557A93219D783500B113EF /* DFRootCollectionViewController.m in Sources */,
 				CE990A1222DDB86E0096B059 /* DFAlertTool.m in Sources */,
 				CE990A0E22DDB7D20096B059 /* DFAlertVC.m in Sources */,
+				6F656F4923D2EB3E008280A1 /* DFScrollTitleView.m in Sources */,
 				CE990A1B22DDE11E0096B059 /* DFLoadingView.m in Sources */,
+				6F656F4F23D2FB5B008280A1 /* DFSegmentTabView.m in Sources */,
 				CE07307422E6D854000AC7AA /* DFBadgeView.m in Sources */,
 				6F49152923CEA7170078723F /* DFVideoModel.m in Sources */,
 				CE557A67219D72CE00B113EF /* AppDelegate.m in Sources */,
 				CE07306522E6B5C0000AC7AA /* DFCommonViewVC.m in Sources */,
 				CE557A94219D783500B113EF /* DFRootWebViewController.m in Sources */,
+				6F656F4523D2E679008280A1 /* DFItemButton.m in Sources */,
+				6F6BBEB023D3E049009A3085 /* DFSegmentTabVC.m in Sources */,
 				CE66BE6A22E7E6300095F7EC /* DFShareUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -23,7 +23,7 @@
 //    UIPanGestureRecognizer *popPanGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self.interactivePopGestureRecognizer.delegate action:@selector(handleNavigationTransition:)];
 //    // 控制手势的触发,在代理方法中实现
 //    popPanGesture.delegate = self;
-//    
+//
 ////    [self.view addSubview:gestureView];
 ////    gestureView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin;
 //    // 把手势添加到self.view
@@ -31,10 +31,11 @@
 //    // 关掉系统的边缘返回手势
 //    self.interactivePopGestureRecognizer.enabled = NO;
     
+    //隐藏导航栏
+    [self setNavigationBarHidden:YES];
+    /// 隐藏导航栏或添加自定义返回item 需要添加
     if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
-        
         self.interactivePopGestureRecognizer.delegate = self;
-        
     }
 
 }

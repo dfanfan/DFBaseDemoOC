@@ -26,8 +26,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    //隐藏导航栏
-    [self.navigationController setNavigationBarHidden:YES];
     //
     self.view.backgroundColor = [UIColor whiteColor];
 
