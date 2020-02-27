@@ -50,7 +50,7 @@
     strokeEndAnimation.keyTimes = @[@0.0,@1];
     
     //旋转2圈
-    CABasicAnimation *rotaAni = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
+    CABasicAnimation *rotaAni = [CABasicAnimation animationWithKeyPath:@"transform.rotation"];
     rotaAni.fromValue = @(DEGREES_TO_RADIANS(0));
     rotaAni.toValue = @(DEGREES_TO_RADIANS(720));
     rotaAni.autoreverses = YES;
